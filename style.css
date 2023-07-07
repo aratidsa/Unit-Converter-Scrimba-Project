@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;  
+}
+.main-title
+{
+    text-align: center;
+    margin-bottom:20px;
+}
+.container
+{
+    width:450px;
+    height:400px;
+    margin:0 auto;
+    margin-top:50px;
+    
+}
+
+.title
+{
+    width:450px;
+    height:200px;
+    text-align: center;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title-heading
+{
+  padding-top:50px;
+  color:white;
+  font-size: 20px;
+}
+
+#input-data
+{
+    font-size: 30px;
+    width:70px;
+    padding:10px 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.conversion-metric
+{
+    width:450px;
+    background-color: rgb(38, 37, 37);
+    color:white;
+    height:200px;
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.length-title, .volume-title , .mass-title
+{
+    margin-top:20px;
+    font-size:12px;
+}
+
+.length-conversion, .volume-conversion, .mass-conversion
+{
+    margin-top:5px;
+    font-size:12px;
+    font-weight: bold;
+    color:grey;
+}
